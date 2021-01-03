@@ -7,7 +7,6 @@ p.aanVang {
 }
 div.kaartje {
     position: relative;
-    background: cornflowerblue;
     background: lightblue;
     border: 7px solid cornsilk;
     width: 500px;
@@ -67,6 +66,16 @@ div.voorNaam {
     animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-delay: 3s;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        
+    }
+
+    div.kaartje {
+
+    }
 }
 
 @keyframes voorNaam {
